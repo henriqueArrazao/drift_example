@@ -64,7 +64,7 @@ class _PageState extends State<Page> {
             },
           ),
           IconButton(
-            icon: const Icon(Icons.upload),
+            icon: const Icon(Icons.undo),
             onPressed: hasBackup
                 ? () async {
                     final file = File(backupPath);
